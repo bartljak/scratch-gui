@@ -66,7 +66,7 @@
     position: absolute;
     bottom: 0.75rem;
     right: 1rem;
-    z-index: 2; /* TODO overlaps the stage, this doesn't work, fix! */
+    zIndex: 2; /* TODO overlaps the stage, this doesn't work, fix! */
 }
 
 .raised {
