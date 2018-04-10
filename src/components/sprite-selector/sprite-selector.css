@@ -34,6 +34,7 @@
     min-width: 4rem;
     min-height: 4rem; /* @todo: calc height same as width */
     margin: calc($space / 2);
+    zIndex: 1;
 }
 
 
@@ -65,7 +66,7 @@
     position: absolute;
     bottom: 0.75rem;
     right: 1rem;
-    z-index: 1; /* TODO overlaps the stage, this doesn't work, fix! */
+    z-index: 2; /* TODO overlaps the stage, this doesn't work, fix! */
 }
 
 .raised {
